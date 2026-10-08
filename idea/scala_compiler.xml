@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaCompilerConfiguration">
+    <option name="separateProdTestSources" value="true" />
+    <profile name="sbt 1" modules="microfinance-loan-tracker,project_studentid_8227,project_studentid_8227.main,project_studentid_8227.test" />
+    <profile name="sbt 2" modules="microfinance-loan-tracker.main,microfinance-loan-tracker.main~1,microfinance-loan-tracker.test,microfinance-loan-tracker.test~1">
+      <option name="deprecationWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="-Wunused:all" />
+      </parameters>
+    </profile>
+  </component>
+</project>

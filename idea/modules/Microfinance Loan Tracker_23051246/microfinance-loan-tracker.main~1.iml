@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="root:main [file:///C:/Users/user/Downloads/Microfinance%20Loan%20Tracker_23051246/Microfinance%20Loan%20Tracker_23051246/]" external.linked.project.path="C:\Users\user\Downloads\Microfinance Loan Tracker_23051246\Microfinance Loan Tracker_23051246" external.root.project.path="$MODULE_DIR$/../../.." external.system.id="SBT" external.system.module.type="sbtSourceSet" type="JAVA_MODULE" version="4">
+  <component name="DisplayModuleName">
+    <option name="name" value="microfinance-loan-tracker.main" />
+  </component>
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_24">
+    <output url="file://$MODULE_DIR$/../../../target/scala-3.3.3/classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../src/main">
+      <sourceFolder url="file://$MODULE_DIR$/../../../src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../src/main/scala" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../target/scala-3.3.3/resource_managed/main" />
+    <content url="file://$MODULE_DIR$/../../../target/scala-3.3.3/src_managed/main" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="sbt: scala-sdk-3.3.3" level="project" />
+    <orderEntry type="library" name="sbt: org.scala-lang:scala3-library_3:3.3.3:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scalafx:scalafx_3:21.0.0-R32:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.lihaoyi:upickle_3:3.3.1:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.openjfx:javafx-base:21.0.2:win:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.openjfx:javafx-controls:21.0.2:win:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.openjfx:javafx-fxml:21.0.2:win:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.openjfx:javafx-graphics:21.0.2:win:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scala-lang:scala-library:2.13.12:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.openjfx:javafx-base:21.0.2:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.openjfx:javafx-controls:21.0.2:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.openjfx:javafx-fxml:21.0.2:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.openjfx:javafx-graphics:21.0.2:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.openjfx:javafx-media:21:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.openjfx:javafx-swing:21:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.openjfx:javafx-web:21:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.lihaoyi:ujson_3:3.3.1:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.lihaoyi:upack_3:3.3.1:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.lihaoyi:upickle-implicits_3:3.3.1:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.openjfx:javafx-media:21:win:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.openjfx:javafx-swing:21:win:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.openjfx:javafx-web:21:win:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.lihaoyi:upickle-core_3:3.3.1:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.lihaoyi:geny_3:1.1.0:jar" level="project" />
+  </component>
+</module>

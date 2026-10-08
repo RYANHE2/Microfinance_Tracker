@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="sbt: org.scalafx:scalafx_3:21.0.0-R32:jar" type="java-imported" external-system-id="SBT">
+    <properties groupId="org.scalafx" artifactId="scalafx_3" version="21.0.0-R32" baseVersion="21.0.0-R32" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scalafx/scalafx_3/21.0.0-R32/scalafx_3-21.0.0-R32.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scalafx/scalafx_3/21.0.0-R32/scalafx_3-21.0.0-R32-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
