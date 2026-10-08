@@ -1,0 +1,163 @@
+/*
+ * "Field Ledger" — visual language for the Microfinance Loan Tracker.
+ *
+ * Grounded in what this app actually is: a digital replacement for the
+ * paper passbooks and ledger books community lenders have always used.
+ * Sage-paper background instead of the generic AI-default cream, ledger
+ * ink for text, brass/gold for the thing you're currently looking at,
+ * and a monospaced figures column wherever money or dates are listed —
+ * so numbers line up the way they would in an actual ledger.
+ */
+
+.root {
+  -fx-ledger-paper: #EEF1EA;
+  -fx-ledger-paper-dim: #E3E6DB;
+  -fx-ledger-ink: #202E2B;
+  -fx-ledger-ink-soft: #4B5854;
+  -fx-ledger-panel: #16211E;
+  -fx-ledger-panel-hover: #223330;
+  -fx-ledger-gold: #B8873B;
+  -fx-ledger-forest: #3F6B52;
+  -fx-ledger-forest-dark: #345A44;
+  -fx-ledger-line: #CFCBB4;
+  -fx-ledger-success: #3F7D4F;
+  -fx-ledger-error: #B4483A;
+
+  -fx-font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  -fx-background-color: -fx-ledger-paper;
+}
+
+.label {
+  -fx-text-fill: -fx-ledger-ink;
+}
+
+/* ---------- Sidebar ---------- */
+
+.app-sidebar {
+  -fx-background-color: -fx-ledger-panel;
+}
+
+.officer-label {
+  -fx-text-fill: -fx-ledger-line;
+  -fx-font-size: 11px;
+  -fx-padding: 0 4 12 4;
+}
+
+.nav-button {
+  -fx-background-color: transparent;
+  -fx-text-fill: #C9CEC5;
+  -fx-font-size: 13px;
+  -fx-alignment: CENTER_LEFT;
+  -fx-padding: 10 14 10 12;
+  -fx-background-radius: 0;
+  -fx-border-width: 0 0 0 3;
+  -fx-border-color: transparent;
+  -fx-cursor: hand;
+}
+
+.nav-button:hover {
+  -fx-background-color: -fx-ledger-panel-hover;
+  -fx-text-fill: white;
+}
+
+.nav-button-selected {
+  -fx-background-color: -fx-ledger-panel-hover;
+  -fx-border-color: -fx-ledger-gold;
+  -fx-text-fill: white;
+  -fx-font-weight: bold;
+}
+
+/* ---------- Screen chrome ---------- */
+
+.screen-title {
+  -fx-font-family: "Georgia", "Iowan Old Style", "Times New Roman", serif;
+  -fx-font-size: 21px;
+  -fx-font-weight: bold;
+  -fx-text-fill: -fx-ledger-ink;
+}
+
+.form-label {
+  -fx-text-fill: -fx-ledger-ink-soft;
+  -fx-font-size: 12px;
+  -fx-font-weight: 600;
+}
+
+.card {
+  -fx-background-color: white;
+  -fx-background-radius: 6;
+  -fx-border-color: -fx-ledger-line;
+  -fx-border-radius: 6;
+  -fx-border-width: 1;
+  -fx-padding: 18;
+}
+
+/* ---------- Inputs ---------- */
+
+.text-field, .combo-box {
+  -fx-background-color: white;
+  -fx-border-color: -fx-ledger-line;
+  -fx-border-radius: 3;
+  -fx-background-radius: 3;
+  -fx-padding: 5 8 5 8;
+  -fx-font-size: 12px;
+}
+
+.text-field:focused, .combo-box:focused {
+  -fx-border-color: -fx-ledger-gold;
+  -fx-border-width: 1.5;
+}
+
+/* ---------- Buttons ---------- */
+
+.primary-button {
+  -fx-background-color: -fx-ledger-forest;
+  -fx-text-fill: white;
+  -fx-font-weight: bold;
+  -fx-font-size: 12px;
+  -fx-background-radius: 4;
+  -fx-padding: 8 20 8 20;
+  -fx-cursor: hand;
+}
+
+.primary-button:hover {
+  -fx-background-color: -fx-ledger-forest-dark;
+}
+
+/* ---------- Status messages ---------- */
+
+.status-label {
+  -fx-font-size: 12px;
+  -fx-padding: 2 0 2 0;
+}
+
+.status-success {
+  -fx-text-fill: -fx-ledger-success;
+  -fx-font-weight: bold;
+}
+
+.status-error {
+  -fx-text-fill: -fx-ledger-error;
+  -fx-font-weight: bold;
+}
+
+/* ---------- Ledger lists ----------
+ * Monospaced so amounts/dates line up in columns the way they would on
+ * a printed statement, rather than reflowing like ordinary prose.
+ */
+
+.list-view {
+  -fx-font-family: "Consolas", "Menlo", "Courier New", monospace;
+  -fx-font-size: 12px;
+  -fx-background-color: white;
+  -fx-border-color: -fx-ledger-line;
+  -fx-border-width: 1;
+}
+
+.list-cell {
+  -fx-padding: 6 10 6 10;
+}
+
+.list-cell:filled:selected {
+  -fx-background-color: -fx-ledger-forest;
+  -fx-text-fill: white;
+}
