@@ -1,0 +1,44 @@
+[
+  {
+    "id": "7801cffa",
+    "name": "dooo",
+    "contact": "012733233",
+    "householdIncome": 3000,
+    "numDependents": 10
+  },
+  {
+    "id": "46a8bd70",
+    "name": "doooo",
+    "contact": "23343343",
+    "householdIncome": 5000,
+    "numDependents": 1
+  },
+  {
+    "id": "7af6386d",
+    "name": "Aisha",
+    "contact": "1255762229",
+    "householdIncome": 3000,
+    "numDependents": 1
+  },
+  {
+    "id": "a9a31f57",
+    "name": "Andy",
+    "contact": "0123352990",
+    "householdIncome": 900000000000000000,
+    "numDependents": 1
+  },
+  {
+    "id": "8586dcb2",
+    "name": "Karl",
+    "contact": "0123352880",
+    "householdIncome": 1000,
+    "numDependents": 1
+  },
+  {
+    "id": "67674d91",
+    "name": "Adam",
+    "contact": "0123352660",
+    "householdIncome": 5000,
+    "numDependents": 1
+  }
+]

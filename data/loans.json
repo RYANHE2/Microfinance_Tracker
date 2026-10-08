@@ -1,0 +1,26 @@
+[
+  {
+    "loanId": "9ef11f7e",
+    "borrowerId": "7801cffa",
+    "principal": 2000,
+    "issueDate": "2026-08-06",
+    "type": "emergency",
+    "repaymentMonths": 3
+  },
+  {
+    "loanId": "92a0885b",
+    "borrowerId": "8586dcb2",
+    "principal": 5000,
+    "issueDate": "2026-08-08",
+    "type": "micro",
+    "termMonths": 6
+  },
+  {
+    "loanId": "ac2dd283",
+    "borrowerId": "67674d91",
+    "principal": 1000,
+    "issueDate": "2026-08-08",
+    "type": "micro",
+    "termMonths": 6
+  }
+]

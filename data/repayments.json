@@ -1,0 +1,20 @@
+[
+  {
+    "loanId": "9ef11f7e",
+    "amount": 2000,
+    "date": "2026-08-06",
+    "method": "cash"
+  },
+  {
+    "loanId": "92a0885b",
+    "amount": 200,
+    "date": "2026-08-08",
+    "method": "cash"
+  },
+  {
+    "loanId": "ac2dd283",
+    "amount": 500,
+    "date": "2026-08-08",
+    "method": "cash"
+  }
+]
